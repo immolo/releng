@@ -23,8 +23,9 @@ livecd/packages:
 	app-accessibility/espeakup
 	app-admin/hddtemp
 	app-admin/pwgen
-	app-admin/syslog-ng
+	app-admin/sysklogd
 	app-arch/unzip
+	app-backup/borgbackup
 	app-crypt/gnupg
 	app-editors/mg
 	app-editors/nano
@@ -51,10 +52,11 @@ livecd/packages:
 	net-misc/ndisc6
 	net-misc/openssh
 	net-misc/rdate
+	net-misc/networkmanager
 	net-misc/rsync
 	net-misc/vconfig
 	net-proxy/dante
-	net-proxy/tsocks
+	net-proxy/torsocks
 	net-wireless/b43-fwcutter
 	net-wireless/iw
 	net-wireless/wireless-tools
@@ -85,6 +87,9 @@ livecd/packages:
 	sys-firmware/ipw2100-firmware
 	sys-firmware/ipw2200-firmware
 	sys-fs/bcache-tools
+	sys-fs/bcachefs-tools
+	sys-process/btop
+	sys-process/htop
 	sys-fs/btrfs-progs
 	sys-fs/cryptsetup
 	sys-fs/dmraid
